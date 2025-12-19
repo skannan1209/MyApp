@@ -1,12 +1,12 @@
 package dataservice;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.transaction.annotation.Transactional;
+import java.util.stream.Stream;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.mvc.method.annotation.StreamingResponseBody;
 
-import java.util.stream.Stream;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 @RestController
 public class DataController {
